@@ -1,0 +1,11 @@
+<?php
+include('seassion.php');
+include('permission_page.php');
+include('config.php');
+include('header.php');
+include('topbar.php');
+include('sidebar.php');
+include($targetpage);
+include('theme_settings.php');
+include('footer.php');
+?>
